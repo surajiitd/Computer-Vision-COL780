@@ -3,7 +3,7 @@
 # Baseline
 python3 main.py -i ./data/baseline/input/ -o ./output1/ -c b -e "./data/baseline/"
 python3 exec.py -p ./output1 -g ./data/baseline/groundtruth/
-mIOU: 0.6461684008800689
+mIOU: 0.6477870905409411
 
 
 # illumination
@@ -16,7 +16,7 @@ mIOU: 0.35188767410893323
 # jitter
 python3 main.py -i ./data/jitter/input/ -o ./output3/ -c j -e "./data/jitter/"
 python3 exec.py -p ./output3 -g ./data/jitter/groundtruth/
-
+mIOU: 0.5431844518520618
 
 
 # Moving_bg
