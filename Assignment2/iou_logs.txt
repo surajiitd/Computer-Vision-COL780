@@ -1,0 +1,35 @@
+*****************Block Based Matching****************************
+
+blurcar:
+NCC: 0.537
+SSD: 0.3356
+
+
+bolt:
+NCC: 0.0049
+SSD: 0.006
+
+
+liquor:
+NCC: 0.52
+SSD: 0.6
+
+*****************Lucas kanade**********************************
+
+blurcar iou = 0.3534
+
+bolt iou = 0.1530
+
+liquor iou = 0.5008
+
+
+*****************Pyramidized Lucas kanade**********************************
+
+blurcar iou = 0.3534960257241722
+
+bolt iou = 0.15303896456442712
+
+liquor iou = 0.5506573760454889
+
+
+

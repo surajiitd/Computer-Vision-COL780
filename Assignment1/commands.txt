@@ -23,3 +23,9 @@ mIOU: 0.5431844518520618
 python3 main.py -i ./data/moving_bg/input/ -o ./output4/ -c m -e "./data/moving_bg/"
 python3 exec.py -p ./output4 -g ./data/moving_bg/groundtruth/
 mIOU: 0.3745731833160578
+
+
+
+###Some reference links
+https://colab.research.google.com/github/stgstg27/Background-Subtraction/blob/master/background_Subtraction.ipynb#scrollTo=W_L-AGBUPtsg
+https://learnopencv.com/video-stabilization-using-point-feature-matching-in-opencv/
